@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  background: linear-gradient(45deg, #000000, #231230, #582c51, #b5b5b5);
+  background-size: 300% 300%;
+  animation: colors 15s ease infinite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
