@@ -1,11 +1,11 @@
 #calc_canva {
-    background: linear-gradient(to right, rgb(157, 110, 215), rgb(211, 106, 106));
-    width: 25vw;
-    margin: 20%;
+    background: linear-gradient(to right, black, darkred);
+    width: 20vw;
+    margin: 10%;
     padding: 20px;
     border-radius: 10px;
     border: 10% wheat;
-    border: solid 10px grey;
+    border: solid 10px gold;
 }
 
 #buttons {
@@ -21,22 +21,25 @@
 
 #equals {
     grid-column: span 2;
-}
-
-#clear{
-    grid-column: span 2;
-}
-
-#window {
-    background-color: rgba(0, 0, 0, 0.893);
+    background-color: red;
     color: white;
+}
+
+#clear {
+    background-color: red;
+    color: white;
+}
+
+#display {
+    background-color: black;
+    color: gold;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
     margin-bottom: 20px;
     border-radius: 5px;
-}
+}    
 
 #calc {
     font-size: 24px;

@@ -5,8 +5,8 @@
 }
 
 .App{
-  background: linear-gradient(45deg, #000000, #231230, #582c51, #b5b5b5);
-  background-size: 300% 300%;
+  background-image: url("./background.jpg");
+  background-size: cover;
   animation: colors 15s ease infinite;
   display: flex;
   flex-direction: column;
